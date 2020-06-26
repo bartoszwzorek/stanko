@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
-@import url(font/BOYA\ alternative\ regular.ttf);
-font-family: boya;
 
 /*
 	Helios by HTML5 UP
@@ -2208,25 +2206,20 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 2.25em;
+				font-size: 1.25em;
 				margin: 0;
-				font-family: boya alternative;
 			}
 
 		#header h1 {
 			color: #fff;
 			font-size: 3em;
 			line-height: 1em;
-			
 		}
 
 			#header h1 a {
 				color: inherit;
-				font-size: 2.2em;
-				font-family: boya alternative;
 			}
-			
-			}
+
 		#header .button {
 			display: inline-block;
 			border-radius: 100%;
