@@ -78,6 +78,12 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
+/*added by me only to work with list in REGULAMIN */
+
+.regulamin-list {
+	text-align: left;
+  }
+
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
@@ -2065,6 +2071,7 @@ input, select, textarea {
 		cursor: pointer;
 		outline: 0;
 		font-weight: 300;
+		width: 100%;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2489,6 +2496,7 @@ input, select, textarea {
 
 			#footer .contact h3 {
 				font-style: italic;
+				color: #CD9777;
 			}
 
 		#footer .copyright {
